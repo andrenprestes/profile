@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html data-lt-installed="true">
+<head>
+  <title>My profile</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,500,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+    function scrollToTarget(value) {
+            var targetDiv = document.getElementById(value);
+            targetDiv.scrollIntoView({ behavior: 'smooth' });
+        }
+  </script>
+</head>
+<body>
+
+  <div class="container" id="contentDiv">
+    <div class="card-white" id="introduction">
+      <h1>Hello, I'm André 😶‍🌫️</h1>
+      <h2>Programmer</h2>
+      <img class="img-circle cropped-ofp" src="./images/me.jpg" width="200px" alt="André Neves">
+      <p>
+        I'm all about the perfect mix: 🎥 movies, 🍲 foods, 📺 series, 🎮 gaming, and 💻 coding. Living the diverse life! 😎🌟
+      </p>
+      <button class="btn-blue" onclick="scrollToTarget('links')">Links</button>
+      <button class="btn-blue" onclick="scrollToTarget('about')">About</button>
+    </div>
+    <div class="card-white" id="about">
+      <h2>About</h2>
+      <p>
+        I am a computer scientist with a broad range of skills and experiences. My expertise includes areas such as Data Visualization, Computational Vision, Data Mining, Predictive Analysis, Model Development, and proficiency in various programming languages and technologies. I have worked on significant projects, including the development of an autonomous truck system using Aruco tags, QA automation, and infrastructure projects utilizing Terraform and Terragrunt.
+        </br>
+        In the realm of Data Science, I have contributed to the creation of a tutor recommendation system based on student project data, employing Python and implementing Content-Based Filtering for personalized recommendations. My academic background includes a Bachelor's degree in Computer Science from UFES, and I have published research in the Revista Eletrônica de Iniciação Científica em Computação.
+        </br>
+        I am well-versed in a multitude of tools and platforms, including AWS and Google Cloud services, as well as CI/CD tools like Jenkins. My diverse skill set, combined with practical experience in various projects, allows me to approach challenges with adaptability and a strong foundation in computer science principles.
+      </p>
+
+
+    </div>
+    <div class="card-white" id="links">
+      <h2>Social links</h2>
+      <ul class="list-inline">
+        <li>
+          <a href="https://github.com/andrenprestes/Resume" target="_blank" >
+            <i class="fab fa-github-square" ></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/andr%C3%A9-prestes-67bb71181?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B0wCqIv%2FUTt%2BEvXYTMw3S7w%3D%3D" target="_blank" >
+            <i class="fa fa-linkedin-square"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
